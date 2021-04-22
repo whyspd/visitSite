@@ -6,13 +6,16 @@
 
  let myPhoto = document.getElementById('myPhoto');
 
- 
+ let skillsTxt = 'Язык программирования C# и web-разработка (HTML, CSS, JS)';
+
+ myPhoto.style.display = "none";
+
 fio.onmouseover = function(e){ 
     text.textContent = 'Павел Бирюков';
 }
 
 skills.onmouseover = function(e){ 
-    text.textContent = 'C#, HTML, CSS, JS';
+    text.textContent = 'Язык программирования C# и web-разработка (HTML, CSS, JS)';
 }
 
 hobby.onmouseover = function(e){ 
@@ -22,6 +25,8 @@ hobby.onmouseover = function(e){
 photo.onmouseover = function(e){ 
     text.textContent = 'Мое фото';
     myPhoto.src = 'myy.jpg';
+    myPhoto.style.display = "block";
+    
 }
 
 photo.onmouseout = function(e){ 

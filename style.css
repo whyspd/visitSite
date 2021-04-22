@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(17, 17, 17);
+}
+
+#title{
+    color: white;
+    margin-top: 2%;
+}
+
+.navigation{
+    margin-top: 2%;
+    width: 45%;
+    float: left;
+}
+
+.row{
+    text-align: left;
+    color: rgb(139, 139, 139);
+    transition: all 0.2s ease;
+}
+
+.row:hover{
+    border: 5px white solid;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.col-2{
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+.information{
+    margin-top: 5%;
+    background-color: rgb(26, 26, 26);
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+#text{
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
